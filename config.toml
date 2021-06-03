@@ -1,4 +1,4 @@
-baseURL = "eakaran.github.io"
+baseURL = "eakaran.github.io/"
 languageCode = "en-us"
 title = "Elizabeth A. Karan"
 theme = "hugo-sustain"
