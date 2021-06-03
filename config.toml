@@ -1,0 +1,43 @@
+baseURL = "eakaran.github.io"
+languageCode = "en-us"
+title = "Elizabeth A. Karan"
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/portrait.png"
+  author = "Elizabeth A. Karan"
+  description = "Personal website for information about my research and my contact information"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "eakaran"
+  Email         = "ekaran@g.ucla.edu"
+  Twitter       = "lizakaran"
+  LinkedIn      = "elizabeth-karan-678119127"
+  #Stackoverflow = "username"
+  #Medium        = "username"
+  #Telegram      = "username"
+  #RSS           = "/blog/index.xml"
+
+## Main Menu
+##[[menu.main]]
+##  name = "blog"
+##  weight = 100
+##  identifier = "blog"
+##  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/projects_list"
+[[menu.main]]
+  name = "CV"
+  identifier = "CV"
+  weight = 300
+  url = "/cv.pdf"
